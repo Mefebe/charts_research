@@ -1,0 +1,82 @@
+freepik:
+	link: https://www.freepik.com/free-vector/bar-graph_4591482.htm#query=charts%20and%20graphs&position=2&from_view=search
+	license: 
+
+d3js:
+	link: https://d3js.org/
+	license: BSD License
+	cons:
+		- hard to use
+		- not looking good
+		- lack of customization options (maybe it is customizable but it is not easy)
+
+apexcharts:
+	link: https://apexcharts.com/
+	license: MIT
+
+	pros:
+		- free
+		- js based
+		- MIT license
+		- offer many option (ready charts)
+		- there is x/y chart with considerably
+        handy zooming capabilities. demo:
+		- there is candle stick chart link:
+		https://apexcharts.com/javascript-chart-demos/candlestick-charts/basic/
+	https://apexcharts.com/javascript-chart-demos/scatter-charts/basic/
+
+	cons:
+		- it may hard to modify(for not it seems hard to me)
+		- do not have ready chart that meets out requirements(
+		but it is sufficiently customizable)
+		- it is slow on large data sets. 
+
+	ekstra notes:
+		- by learning details of library I think it meets our requirements.
+		- to assign different color to outliers probably
+	          'fill' can be used.
+		
+chartist:
+	link: https://gionkunz.github.io/chartist-js/index.html
+	license: MIT
+	
+	pros:
+		- free
+		- js based
+		- MIT license
+		- offer many option
+		- it has x/y chart link:
+		https://gionkunz.github.io/chartist-js/examples.html
+		name of chart: LINE SCATTER DIAGRAM WITH RESPONSIVE SETTINGS
+		*- some charts have great animations
+	cons: 
+		- the charts are not interactive at their demos.(also at sandbox)
+		- no zoom option found at their demos.
+
+Echarts:
+	link: https://echarts.apache.org/en/index.html
+	license: Apache License 2.0
+	
+	pros:
+		- free
+		- js based
+		- Apache license
+		- offer many option (ready charts)
+		-**fast** (can be used to show a crowded data; even 40000 data can be shown at acceptable speed)
+		- a lot of customization option
+		- not hard to customize. Related document;
+			https://echarts.apache.org/en/option.html#series-line.lineStyle.width
+		- it offers 3d charts
+	cons:
+		- it is not looking as good as apexcharts(Personal)
+
+	great chart examples:
+		-***https://echarts.apache.org/examples/en/editor.html?c=line-aqi
+		-**https://echarts.apache.org/examples/en/editor.html?c=line-marker&reset=1&edit=1
+		-*https://echarts.apache.org/examples/en/editor.html?c=line-stack
+		-*https://echarts.apache.org/examples/en/editor.html?c=line-sections
+		-**https://echarts.apache.org/examples/en/editor.html?c=dataset-link
+		-*https://echarts.apache.org/examples/en/editor.html?c=candlestick-simple 
+		-**(it has zoom bar at Y axis)https://echarts.apache.org/examples/en/editor.html?c=line-draggable
+		
+		  
