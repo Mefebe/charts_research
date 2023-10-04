@@ -1,0 +1,12 @@
++Lisans
++Zaman (line) grafigi
++Multiline özelligi
++?X-Y grafigi --> !It is not work properly at large data set
++Candlestick(Mum) grafigi(borsada kullanilana benzer, min-max-avarage göstermek için)
++?Otomatik ölçeklendirme(Auto scale) --> It autoscale the chart but I am not sure whether it is good enough.
++Ayarlanabilir ölçek(scale)
++?Stil degisikligi(css dosyasindan vs kolaylikla yapilabiliyor mu) --> not easy
++Label kullanisliligi(Bazilarinda sorunlu oluyor. içiçe geçebiliyor, yazilari üstüste yazabiliyor.)
+?Line grafikte farkli deger araliklarini farkli renkte gösterim
++Out of limit çizgileri
++Zoom
